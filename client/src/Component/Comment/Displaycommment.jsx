@@ -88,7 +88,7 @@ const Displaycommment = ({
 
     const handleTranslate = async () => {
         try {
-            const response = await axios.post("https://translator-1-pi8c.onrender.com/translate", {
+            const response = await axios.post("https://translator-klqz.onrender.com/translate", {
                 text: commentbody,
                 source_lang: "en", // Specify source language explicitly
                 target_lang: targetLang,
